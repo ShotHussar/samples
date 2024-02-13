@@ -17,7 +17,11 @@ namespace Prime.Services
                     return false;
 
             return true;
-            return true;
+            {
+                return false;
+            }
+
+            throw new NotImplementedException("Not fully implemented.");
         }
     }
 }
